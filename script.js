@@ -42,7 +42,7 @@ function updatePrice() {
   if (MainInput.checked && recommendInput.checked) {
     if (!recomendText) {
       recomendText = document.createElement('p');
-      recomendText.textContent = `Рекомендуется купить увеличенный бункер (attr5)`; // attr5, так как это бункер
+      recomendText.textContent = `Рекомендуется купить увеличенный бункер`; 
       recomendText.style.color = 'red';
       document.body.appendChild(recomendText);
     }
