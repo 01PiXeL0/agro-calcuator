@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Калькулятор стоимости комбайна</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="Container">
+  <h1>Калькулятор стоимости сельхозтехники (Комбайн + агрегаты)</h1>
+  <div class="calculator">
+    <input id="InputPriceCombain" type="checkbox" value="combain" data-price="5000000"> Комбайн
+  </div>
+  <div class="attributes">
+    <input class="InputPriceAttributes" type="checkbox" value="attr1" data-price="800000"> Жатка зерновая
+    <input class="InputPriceAttributes" type="checkbox" value="attr2" data-price="950000"> Жатка кукурузная
+    <input class="InputPriceAttributes" type="checkbox" value="attr3" data-price="300000"> Система GPS-навигации
+    <input class="InputPriceAttributes" type="checkbox" value="attr4" data-price="150000"> Датчики урожайности
+    <input class="InputPriceAttributes" type="checkbox" value="attr5" data-price="500000"> Увеличенный бункер
+  </div>
+  <h3>Итоговая цена:</h3>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+.Container {
+  padding: 20px;
+  border-radius: 5px;
+  background-color: blanchedalmond;
+}
+
+.attributes {
+  display: flex;
+  flex-direction: column;
+}
